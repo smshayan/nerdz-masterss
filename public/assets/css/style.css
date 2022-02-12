@@ -1,0 +1,537 @@
+@font-face {
+	font-family: "Turismocf-bold";
+	src: url("../fonts/TurismoCF-Bold.woff");
+}
+@font-face {
+	font-family: "Turismocf-regular";
+	src: url("../fonts/TurismoCF-Regular.woff");
+}
+@font-face {
+	font-family: "Turismocf-light";
+	src: url("../fonts/TurismoCF-light.woff");
+}
+@font-face {
+	font-family: "TurismoCF-medium";
+	src: url("../fonts/TurismoCF-medium.woff");
+}
+@font-face {
+	font-family: "TurismoCF-heavy";
+	src: url("../fonts/TurismoCF-Heavy.woff");
+}
+@font-face {
+	font-family: "TurismoCF-demi-bold";
+	src: url("../fonts/TurismoCF-DemiBold.woff");
+}
+@font-face {
+	font-family: "TurismoCF-ExtraBold";
+	src: url("../fonts/TurismoCF-ExtraBold.woff");
+}
+@font-face {
+	font-family: "LilitaOne-Regular";
+	src: url("../fonts/LilitaOne-Regular.ttf");
+}
+body,
+html {
+	overflow-x: hidden;
+	padding-top: 3%;
+}
+.logo_s {
+	width: 128px;
+	height: 100px;
+}
+h1 {
+	font-family: "TurismoCF-bold";
+	font-size: 58px;
+	color: #fff;
+}
+.sec_two h1 {
+	font-family: "LilitaOne-Regular";
+	color: #83bbff;
+	margin-top: 24%;
+	margin-bottom: 4%;
+}
+
+.sec_two {
+	background-image: url("images/sec_two_bg.png");
+}
+.sec_two h1 {
+	color: white;
+}
+.count_call h2 {
+	font-size: 24px;
+	font-family: "Bungee";
+	color: #363636;
+	margin-bottom: 40px;
+}
+.roadmapsecdes {
+	background: #83bbff;
+	padding-top: 19%;
+	top: -335px;
+	z-index: -96;
+	position: relative;
+	padding-bottom: 10%;
+}
+.roadmapsecdes img {
+	width: 100%;
+}
+.bg-nav {
+	background: #83bbff;
+	box-shadow: 0 4px 4px -2px rgb(0 0 0 / 20%);
+}
+.col_set_ {
+	padding: 0 7%;
+}
+.col_set_ p {
+	margin-bottom: 6%;
+}
+.sec_two img {
+	width: 140%;
+}
+.button_join {
+	font-family: "LilitaOne-Regular";
+	font-size: 25px;
+	background: white;
+	padding: 3px 32px;
+}
+.set_pading {
+	margin: 0 20px;
+}
+.button_nerds {
+	font-family: "LilitaOne-Regular";
+	font-size: 30px;
+	padding: 5px 32px;
+	border: 2px solid white;
+	color: #00b9d1;
+	background: #fff;
+	text-transform: uppercase;
+}
+.button_nerd:hover,
+.btn_nerds:hover {
+	background: white;
+	color: #00b9d1;
+}
+.btn_row {
+	position: relative;
+	left: -70px;
+	margin-top: 10% !important;
+}
+.btn_nerds {
+	font-size: 30px !important;
+	border: 2px solid white !important;
+	padding: 15px 30px !important;
+}
+.seting_row {
+	padding: 50px 10px;
+}
+.setings_row {
+	padding: 11% 0% 7% 0% !important;
+}
+.sec_bg {
+	background: #83bbff;
+}
+.footer {
+	background: #ffe66a;
+	margin-top: -5%;
+}
+p {
+	font-family: "TurismoCF-Regular";
+}
+.button_nerd {
+	font-family: "LilitaOne-Regular";
+	font-size: 30px;
+	padding: 5px 32px;
+	border: 2px solid white;
+	color: #fff;
+	text-transform: uppercase;
+}
+.bg-image_sec {
+	background-image: url("images/CompositeLayer.png") !important;
+	background-size: cover;
+	padding-bottom: 30%;
+}
+.col_set_::before {
+	content: url("images/link.png");
+	float: left;
+	margin-right: 42px;
+	top: -14px;
+	position: relative;
+}
+.cols_set_::after {
+	content: url("images/link3.png");
+	float: right;
+	margin-right: -24px;
+	position: relative;
+	z-index: -99;
+}
+.btn-link {
+	font-family: "LilitaOne-Regular";
+	font-size: 20px;
+	color: black;
+}
+.card-body {
+	font-family: "Turismocf-regular";
+	font-size: 15px;
+}
+.back_bl {
+	width: 70%;
+	margin: 0 auto;
+}
+.btn.focus,
+.btn:focus {
+	box-shadow: none;
+}
+.fa-sort-down:before {
+	display: none;
+}
+.card {
+	border: 3px solid rgb(0 0 0);
+	margin: 13px;
+}
+.bg_rea {
+	/* background: #83bbff;  */
+}
+.card-header {
+	background: white;
+}
+.sec_faq {
+	background-image: url("images/bf_faq2.png") !important;
+	background-size: cover;
+	background-origin: initial;
+	background-repeat: no-repeat;
+}
+
+.faq {
+	color: white !important;
+}
+.mian_taem {
+	background: #ffe66a;
+	padding: 20px;
+	border-radius: 20px;
+}
+.team_bg_s {
+	background: #febe62;
+}
+.team_bg_r {
+	background: #e5625e;
+}
+.team_bg_b {
+	background: #086788;
+}
+.team_bg_cv {
+	background: #086788;
+}
+.team_bg_tr {
+	background: #47e5bc;
+}
+.row_team_set {
+	padding-left: 3.1%;
+	padding-right: 1.1%;
+}
+.headonese {
+	font-family: "LilitaOne-Regular";
+	color: #83bbff;
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+.sec_five {
+	position: relative;
+	top: -335px;
+}
+.roadmapsec {
+	display: none;
+}
+.post {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-size: 23px;
+	padding: 0 0 10px 0;
+}
+.set_oicin {
+	float: left;
+}
+.set_imgg {
+	width: 50px !important;
+	filter: invert(1);
+}
+.cols_set_::before {
+	content: url("images/link2.png");
+	float: left;
+	margin-right: 12px;
+}
+.sec_three {
+	background: #febe62;
+	position: relative;
+	top: -153px;
+}
+.set_head {
+	font-family: "LilitaOne-Regular";
+	font-size: 60px;
+	padding: 10% 0;
+}
+.margins_se {
+	margin: 0 auto;
+	text-align: center;
+}
+.bg_se img:hover {
+	transform: scale(1.1);
+}
+.bubble {
+	overflow: hidden;
+	/* border-radius: 20% 20% 20% 20%; */
+	border-bottom-left-radius: 90% 330px;
+	border-bottom-right-radius: 90% 330px;
+	border-top-right-radius: 94% 331px;
+	border-top-left-radius: 94% 338px;
+	background-color: #febe62;
+}
+.nerd_row img,
+.mian_taem img {
+	width: 100%;
+}
+span {
+	font-family: "Turismocf-bold";
+	margin: 10px;
+}
+
+.nerd_row {
+	padding-bottom: 10%;
+}
+.span_font {
+	font-family: "LilitaOne-Regular";
+	font-size: 25px;
+	text-align: center;
+	color: white;
+}
+.team_name {
+	font-family: "LilitaOne-Regular";
+	font-size: 30px;
+	text-align: left;
+	color: black;
+}
+.bg_ser {
+	border-radius: 50%;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	background: white;
+	border: 10px solid #086788;
+}
+.circle-face {
+	display: inline-block;
+	border: 4px solid #00b9d1;
+	border-radius: 50%;
+	width: 140px;
+	height: 140px;
+	margin-top: 30px; /* 30px forehead space */
+}
+.circle-face > * {
+	display: inline-block;
+	width: 140px;
+	height: 170px; /* by 30px higher */
+	margin-top: -30px; /* and offset by 30px */
+	background: none no-repeat center bottom / 170px;
+	border-radius: 0 0 70px 70px; /* 70 + 70 = 140px width */
+	/* box-shadow: 0 0 0 4px red;    /* UNCOMMENT TO SEE THE TRICK */
+}
+.roadmapsec {
+	background: #83bbff;
+	position: relative;
+	top: -335px;
+	z-index: -96;
+	padding-top: 19%;
+}
+.roadmapHead {
+	color: white;
+	margin-top: 1%;
+	text-align: center;
+}
+.roadmapsec h5 {
+	font-family: "LilitaOne-Regular";
+	color: white;
+}
+.ywll {
+	color: #ffe66a;
+}
+.sec_end {
+	position: absolute;
+	bottom: 180px;
+}
+/* roadmap START*/
+circle {
+	padding: 13px 20px;
+	border-radius: 50%;
+	background-color: #fff;
+	color: #fff;
+	max-height: 50px;
+	z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+	align-self: stretch;
+}
+.how-it-works.row .col-2::after {
+	content: "";
+	position: absolute;
+	border-left: 3px solid #fff;
+	z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+	height: 50%;
+	left: 50%;
+	top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+	height: 100%;
+	left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+	height: 50%;
+	left: 50%;
+	top: 0;
+}
+
+.timeline div {
+	padding: 0;
+	height: 40px;
+}
+.timeline hr {
+	border-top: 3px solid #fff;
+	margin: 0;
+	top: 17px;
+	position: relative;
+}
+.timeline .col-2 {
+	display: flex;
+	overflow: hidden;
+}
+.timeline .corner {
+	border: 3px solid #fff;
+	width: 100%;
+	position: relative;
+	border-radius: 15px;
+}
+.timeline .top-right {
+	left: 47%;
+	top: -50%;
+}
+.timeline .left-bottom {
+	left: -50%;
+	top: calc(50% - 3px);
+}
+.timeline .top-left {
+	left: -50%;
+	top: -50%;
+}
+.timeline .right-bottom {
+	left: 47%;
+	top: calc(50% - 3px);
+}
+
+/* roadmap END*/
+
+@media screen and (max-width: 1220px) and (min-width: 992px) {
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+}
+@media screen and (max-width: 1499px) and (min-width: 1200px) {
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+	.none_clas {
+		display: none;
+	}
+	.roadmapsecdes {
+		display: block;
+	}
+	.bg_rea {
+		background: #83bbff;
+	}
+	.sec_faq {
+		background-image: url("images/bf_faq2.png") !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.roadmapsec {
+		display: block;
+	}
+	.none_clas,
+	.roadmapsecdes {
+		display: none;
+	}
+
+	.bg_rea {
+		background: #83bbff;
+	}
+	.sec_three,
+	.sec_five,
+	.btn_row {
+		position: inherit;
+	}
+	.setings_row {
+		padding: 5% !important;
+		margin-bottom: 5%;
+	}
+	.btn_row {
+		left: 0;
+	}
+	.nerd_row img,
+	.mian_taem img {
+		width: 50%;
+	}
+	.roadmapHead {
+		margin-top: 1%;
+	}
+	.btn_nerds {
+		font-size: 30px !important;
+		margin: 0 auto;
+	}
+	.roadmapsec {
+		position: inherit;
+	}
+	body {
+		padding-top: 29%;
+	}
+	.sec_two img {
+		width: 100%;
+	}
+	.bg-image_sec {
+		padding-bottom: 2%;
+	}
+	.col_set_::before,
+	.cols_set_::before,
+	.cols_set_::after {
+		display: none;
+	}
+	.sec_two h1 {
+		margin-top: 10%;
+		font-size: 44px;
+	}
+	.set_head {
+		font-size: 44px;
+	}
+	.card-header {
+		padding: 0.25rem 0.25rem;
+	}
+	.team_name {
+		padding-top: 3%;
+	}
+	.bubble {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+	}
+	.btn-link {
+		font-size: 16px;
+	}
+	.sec_faq {
+		background-image: url("images/bf_faq2.png") !important;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
